@@ -150,22 +150,28 @@ function leftTopChartsBak() {
         return result
     }
     let data = [{
-        'name': '北京',
+        'name': '和平',
         'value': 25
     }, {
-        'name': '上海',
+        'name': '沈河',
         'value': 20
     }, {
-        'name': '广州',
+        'name': '皇姑',
         'value': 18
     }, {
-        'name': '深圳',
+        'name': '大东',
         'value': 15
     }, {
-        'name': '未知',
+        'name': '铁西',
         'value': 13
     }, {
-        'name': '海外',
+        'name': '浑南',
+        'value': 9
+    }, {
+        'name': '沈北',
+        'value': 9
+    }, {
+        'name': '营业室',
         'value': 9
     }].sort((a, b) => {
         return b.value - a.value
@@ -410,7 +416,7 @@ function leftBottomCharts() {
             axisLine: {
                 show: false
             },
-            data: ['儿童用品', '韩流服饰', '化妆品', '美味小吃', '老人用品', '美妆用品']
+            data: ['和平支行', '沈河支行', '皇姑支行', '大东支行', '铁西支行', '浑南支行', '沈北支行', '营业室']
         }, {
             type: 'category',
             inverse: true,
