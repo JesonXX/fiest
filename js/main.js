@@ -309,27 +309,35 @@ function leftTopCharts() {
             },
             data: [{
                     value: 25,
-                    name: '上海'
+                    name: '和平'
                 },
                 {
                     value: 20,
-                    name: '北京'
+                    name: '沈河'
                 },
                 {
                     value: 15,
-                    name: '广州'
+                    name: '皇姑'
                 },
                 {
                     value: 10,
-                    name: '深圳'
+                    name: '大东'
                 },
                 {
                     value: 8,
-                    name: '未知'
+                    name: '铁西'
                 },
                 {
-                    value: 3,
-                    name: 'rose6'
+                    value: 9,
+                    name: '浑南'
+                },
+                {
+                    value: 12,
+                    name: '沈北'
+                },
+                {
+                    value: 20,
+                    name: '营业室'
                 },
             ]
         }, {
